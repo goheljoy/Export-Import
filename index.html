@@ -4,10 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Export Import</title>
-        <!-- custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- splide slider css -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
         <!-- oxygen fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,43 +12,72 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <!-- splide slider css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+        <!-- custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <!-- header -->
         <header class="ei-site-header">
             <div class="ei-sub-navbar">
                 <div class="ei-container">
-                    <img class="ei-site-logo" src="assets/images/site-logo.png" alt="site-logo" />
+                    <img class="ei-site-logo" src="/assets/images/site-logo.png" alt="site-logo" />
                     <div class="ei-contacts">
-                        <div class="ei-contact-details">
-                            <div class="ei-phone-no">
+                        <ul class="ei-contact-details">
+                            <li class="ei-phone-no">
                                 <h3>Phone no:</h3>
                                 <p>+91 12345 67890</p>
-                            </div>
-                            <div class="ei-Email">
+                            </li>
+                            <li class="ei-Email">
                                 <h3>Email:</h3>
                                 <p>infoabcxyz@.com</p>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                         <ul class="ei-socials-links">
-                            <li><a href="#"><img src="assets/images/Facebook.svg" alt="Facebook" /></a></li>
-                            <li><a href="#"><img src="assets/images/Linkedin.svg" alt="Linkedin" /></a></li>
-                            <li><a href="#"><img src="assets/images/Whatsapp.svg" alt="Whatsapp" /></a></li>
-                            <li><a href="#"><img src="assets/images/location_on.svg" alt="location_on" /></a></li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17.525 9.00006H14V7.00006C14 5.96806 14.084 5.31806 15.563 5.31806H17.431V2.13806C16.522 2.04406 15.608 1.99806 14.693 2.00006C11.98 2.00006 10 3.65706 10 6.69906V9.00006H7V13.0001L10 12.9991V22.0001H14V12.9971L17.066 12.9961L17.525 9.00006Z" fill="black"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_7_61)"><path d="M0 1.719C0 0.7695 0.789 0 1.7625 0H22.2375C23.211 0 24 0.7695 24 1.719V22.281C24 23.2305 23.211 24 22.2375 24H1.7625C0.789 24 0 23.2305 0 22.281V1.719ZM7.4145 20.091V9.2535H3.813V20.091H7.4145ZM5.6145 7.773C6.87 7.773 7.6515 6.942 7.6515 5.901C7.629 4.8375 6.8715 4.029 5.6385 4.029C4.4055 4.029 3.6 4.839 3.6 5.901C3.6 6.942 4.3815 7.773 5.5905 7.773H5.6145ZM12.9765 20.091V14.0385C12.9765 13.7145 13.0005 13.3905 13.0965 13.1595C13.356 12.513 13.9485 11.8425 14.9445 11.8425C16.248 11.8425 16.7685 12.8355 16.7685 14.2935V20.091H20.37V13.875C20.37 10.545 18.594 8.997 16.224 8.997C14.313 8.997 13.4565 10.047 12.9765 10.7865V10.824H12.9525C12.9605 10.8115 12.9685 10.799 12.9765 10.7865V9.2535H9.3765C9.4215 10.2705 9.3765 20.091 9.3765 20.091H12.9765Z" fill="black"/></g><defs><clipPath id="clip0_7_61"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_7_56)"><path d="M20.4015 3.48907C19.3012 2.37859 17.9909 1.49819 16.547 0.899181C15.103 0.300173 13.5543 -0.00546641 11.991 7.39958e-05C5.4405 7.39958e-05 0.102 5.33707 0.096 11.8891C0.096 13.9876 0.645 16.0291 1.6815 17.8366L0 24.0001L6.306 22.3471C8.05051 23.2964 10.0049 23.7941 11.991 23.7946H11.997C18.549 23.7946 23.886 18.4576 23.892 11.8996C23.8935 10.3366 23.5857 8.78885 22.9864 7.34539C22.3871 5.90193 21.5096 4.59132 20.4015 3.48907ZM11.991 21.7816C10.2195 21.7822 8.48055 21.3055 6.957 20.4016L6.597 20.1856L2.856 21.1666L3.855 17.5171L3.621 17.1406C2.63071 15.5661 2.10697 13.7431 2.1105 11.8831C2.1105 6.44407 6.546 2.00707 11.997 2.00707C13.2956 2.00474 14.5818 2.25949 15.7815 2.75661C16.9812 3.25374 18.0706 3.98341 18.987 4.90357C19.9065 5.82015 20.6355 6.90971 21.1319 8.10942C21.6282 9.30913 21.8822 10.5952 21.879 11.8936C21.873 17.3521 17.4375 21.7816 11.991 21.7816ZM17.4135 14.3806C17.118 14.2321 15.6585 13.5136 15.384 13.4116C15.111 13.3141 14.9115 13.2631 14.7165 13.5601C14.517 13.8556 13.947 14.5291 13.776 14.7226C13.605 14.9221 13.428 14.9446 13.131 14.7976C12.8355 14.6476 11.877 14.3356 10.743 13.3201C9.858 12.5326 9.2655 11.5576 9.0885 11.2621C8.9175 10.9651 9.072 10.8061 9.2205 10.6576C9.351 10.5256 9.516 10.3096 9.6645 10.1386C9.8145 9.96757 9.864 9.84157 9.9615 9.64357C10.059 9.44257 10.0125 9.27157 9.939 9.12307C9.864 8.97457 9.2715 7.50907 9.021 6.91807C8.781 6.33457 8.5365 6.41557 8.3535 6.40807C8.1825 6.39757 7.983 6.39757 7.7835 6.39757C7.63285 6.40132 7.48459 6.43616 7.34804 6.49992C7.21149 6.56368 7.08959 6.65497 6.99 6.76807C6.717 7.06507 5.9535 7.78357 5.9535 9.24907C5.9535 10.7146 7.0185 12.1231 7.1685 12.3226C7.3155 12.5221 9.2595 15.5206 12.243 16.8106C12.948 17.1181 13.503 17.2996 13.9365 17.4376C14.649 17.6656 15.2925 17.6311 15.8055 17.5576C16.3755 17.4706 17.562 16.8376 17.8125 16.1431C18.0585 15.4471 18.0585 14.8531 17.9835 14.7286C17.91 14.6026 17.7105 14.5291 17.4135 14.3806Z" fill="#212121"/></g><defs><clipPath id="clip0_7_56"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g mask="url(#mask0_7_68)"><path d="M12 21.325C11.7667 21.325 11.5333 21.2833 11.3 21.2C11.0667 21.1167 10.8583 20.9917 10.675 20.825C9.59167 19.825 8.63333 18.85 7.8 17.9C6.96667 16.95 6.27083 16.0292 5.7125 15.1375C5.15417 14.2458 4.72917 13.3875 4.4375 12.5625C4.14583 11.7375 4 10.95 4 10.2C4 7.7 4.80417 5.70833 6.4125 4.225C8.02083 2.74167 9.88333 2 12 2C14.1167 2 15.9792 2.74167 17.5875 4.225C19.1958 5.70833 20 7.7 20 10.2C20 10.95 19.8542 11.7375 19.5625 12.5625C19.2708 13.3875 18.8458 14.2458 18.2875 15.1375C17.7292 16.0292 17.0333 16.95 16.2 17.9C15.3667 18.85 14.4083 19.825 13.325 20.825C13.1417 20.9917 12.9333 21.1167 12.7 21.2C12.4667 21.2833 12.2333 21.325 12 21.325ZM12 12C12.55 12 13.0208 11.8042 13.4125 11.4125C13.8042 11.0208 14 10.55 14 10C14 9.45 13.8042 8.97917 13.4125 8.5875C13.0208 8.19583 12.55 8 12 8C11.45 8 10.9792 8.19583 10.5875 8.5875C10.1958 8.97917 10 9.45 10 10C10 10.55 10.1958 11.0208 10.5875 11.4125C10.9792 11.8042 11.45 12 12 12Z" fill="#212121"/></g></svg>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <nav class="ei-site-nav">
                 <div class="ei-container">
-                    <ul class="ei-site-nav-list">
-                        <li><button id="menuu-btn" class="ei-menu-btn" type="button"><img src="/assets/images/nav-btn.svg" alt="menu-btn"></button></li>
-                        <li class="hide-tablet"><a class="ei-nav-link active" href="#">Home</a></li>
-                        <li class="hide-tablet"><a class="ei-nav-link" href="#">About Us</a></li>
-                        <li class="hide-tablet"><a class="ei-nav-link" href="#">Products</a></li>
-                        <li class="hide-tablet"><a class="ei-nav-link" href="#">Gallery</a></li>
-                        <li class="hide-tablet"><a class="ei-nav-link" href="#">Awards</a></li>
-                    </ul>
+                    <div>
+                        <button id="menuu-btn" class="ei-menu-btn" type="button"><img src="/assets/images/nav-btn.svg" alt="menu-btn"></button>
+                        <ul class="ei-site-nav-list">
+                            <li><a class="ei-nav-link active" href="#">Home</a></li>
+                            <li><a class="ei-nav-link" href="#">About Us</a></li>
+                            <li><a class="ei-nav-link" href="#">Products</a></li>
+                            <li><a class="ei-nav-link" href="#">Gallery</a></li>
+                            <li><a class="ei-nav-link" href="#">Awards</a></li>
+                        </ul>
+                        <ul class="ei-site-nav-list ei-hide">
+                            <li><a class="ei-nav-link active" href="#">Home</a></li>
+                            <li><a class="ei-nav-link" href="#">About Us</a></li>
+                            <li><a class="ei-nav-link" href="#">Products</a></li>
+                            <li><a class="ei-nav-link" href="#">Gallery</a></li>
+                            <li><a class="ei-nav-link" href="#">Awards</a></li>
+                        </ul>
+                    </div>
                     <a class="ei-site-nav-contactus" href="#">Contact Us</a>
                 </div>
             </nav>
@@ -101,8 +126,8 @@
             <div class="ei-container">
                 <img class="ei-variation-graphic" src="assets/images/variation-img.jpg" alt="variation" />
                 <div class="ei-variation-content">
-                    <h4>There are many variations.</h4>
-                    <h2>There are many variations of passages of Lorem Ipsum.</h2>
+                    <h4 class="h4">There are many variations.</h4>
+                    <h2 class="h2">There are many variations of passages of Lorem Ipsum.</h2>
                     <div class="ei-variation-desc">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -115,8 +140,8 @@
         <!-- our product section -->
         <section class="ei-ourproduct-section">
         <div class="ei-container">
-            <h4>Why We Are</h4>
-            <h2>Our Products</h2>
+            <h4 class="h4">Why We Are</h4>
+            <h2 class="h2">Our Products</h2>
             <div class="ei-ourproduct-cards-wrap">
                 <div class="ei-ourproduct-card">
                     <div class="ei-ourproduct-inner-card">
@@ -206,8 +231,8 @@
         <section class="ei-why-choose-us-section">
             <div class="ei-container">
                 <div class="ei-why-choose-us-content">
-                    <h4>Why We Are</h4>
-                    <h2>Why Choose Us</h2>
+                    <h4 class="h4">Why We Are</h4>
+                    <h2 class="h2">Why Choose Us</h2>
                     <ul class="ei-why-choose-us-list">
                         <li>Lorem Ipsum is simply dummy text.</li>
                         <li>Lorem Ipsum is simply dummy text of the printing.</li>
@@ -234,8 +259,8 @@
         <section class="ei-result-section">
             <div class="ei-container">
                 <div class="ei-result-content">
-                    <h4>lorem Ipsum is text</h4>
-                    <h2>Our results in last year</h2>
+                    <h4 class="h4">lorem Ipsum is text</h4>
+                    <h2 class="h2">Our results in last year</h2>
                     <ul class="ei-result-list">
                         <li>
                             <h2>2.4M</h2>
@@ -308,10 +333,26 @@
                             </div>
                         </form>
                         <ul class="ei-socials-links">
-                            <li><a href="#"><img src="assets/images/Facebook.svg" alt="Facebook" /></a></li>
-                            <li><a href="#"><img src="assets/images/Linkedin.svg" alt="Linkedin" /></a></li>
-                            <li><a href="#"><img src="assets/images/Whatsapp.svg" alt="Whatsapp" /></a></li>
-                            <li><a href="#"><img src="assets/images/location_on.svg" alt="location_on" /></a></li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17.525 9.00006H14V7.00006C14 5.96806 14.084 5.31806 15.563 5.31806H17.431V2.13806C16.522 2.04406 15.608 1.99806 14.693 2.00006C11.98 2.00006 10 3.65706 10 6.69906V9.00006H7V13.0001L10 12.9991V22.0001H14V12.9971L17.066 12.9961L17.525 9.00006Z" fill="black"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_7_61)"><path d="M0 1.719C0 0.7695 0.789 0 1.7625 0H22.2375C23.211 0 24 0.7695 24 1.719V22.281C24 23.2305 23.211 24 22.2375 24H1.7625C0.789 24 0 23.2305 0 22.281V1.719ZM7.4145 20.091V9.2535H3.813V20.091H7.4145ZM5.6145 7.773C6.87 7.773 7.6515 6.942 7.6515 5.901C7.629 4.8375 6.8715 4.029 5.6385 4.029C4.4055 4.029 3.6 4.839 3.6 5.901C3.6 6.942 4.3815 7.773 5.5905 7.773H5.6145ZM12.9765 20.091V14.0385C12.9765 13.7145 13.0005 13.3905 13.0965 13.1595C13.356 12.513 13.9485 11.8425 14.9445 11.8425C16.248 11.8425 16.7685 12.8355 16.7685 14.2935V20.091H20.37V13.875C20.37 10.545 18.594 8.997 16.224 8.997C14.313 8.997 13.4565 10.047 12.9765 10.7865V10.824H12.9525C12.9605 10.8115 12.9685 10.799 12.9765 10.7865V9.2535H9.3765C9.4215 10.2705 9.3765 20.091 9.3765 20.091H12.9765Z" fill="black"/></g><defs><clipPath id="clip0_7_61"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_7_56)"><path d="M20.4015 3.48907C19.3012 2.37859 17.9909 1.49819 16.547 0.899181C15.103 0.300173 13.5543 -0.00546641 11.991 7.39958e-05C5.4405 7.39958e-05 0.102 5.33707 0.096 11.8891C0.096 13.9876 0.645 16.0291 1.6815 17.8366L0 24.0001L6.306 22.3471C8.05051 23.2964 10.0049 23.7941 11.991 23.7946H11.997C18.549 23.7946 23.886 18.4576 23.892 11.8996C23.8935 10.3366 23.5857 8.78885 22.9864 7.34539C22.3871 5.90193 21.5096 4.59132 20.4015 3.48907ZM11.991 21.7816C10.2195 21.7822 8.48055 21.3055 6.957 20.4016L6.597 20.1856L2.856 21.1666L3.855 17.5171L3.621 17.1406C2.63071 15.5661 2.10697 13.7431 2.1105 11.8831C2.1105 6.44407 6.546 2.00707 11.997 2.00707C13.2956 2.00474 14.5818 2.25949 15.7815 2.75661C16.9812 3.25374 18.0706 3.98341 18.987 4.90357C19.9065 5.82015 20.6355 6.90971 21.1319 8.10942C21.6282 9.30913 21.8822 10.5952 21.879 11.8936C21.873 17.3521 17.4375 21.7816 11.991 21.7816ZM17.4135 14.3806C17.118 14.2321 15.6585 13.5136 15.384 13.4116C15.111 13.3141 14.9115 13.2631 14.7165 13.5601C14.517 13.8556 13.947 14.5291 13.776 14.7226C13.605 14.9221 13.428 14.9446 13.131 14.7976C12.8355 14.6476 11.877 14.3356 10.743 13.3201C9.858 12.5326 9.2655 11.5576 9.0885 11.2621C8.9175 10.9651 9.072 10.8061 9.2205 10.6576C9.351 10.5256 9.516 10.3096 9.6645 10.1386C9.8145 9.96757 9.864 9.84157 9.9615 9.64357C10.059 9.44257 10.0125 9.27157 9.939 9.12307C9.864 8.97457 9.2715 7.50907 9.021 6.91807C8.781 6.33457 8.5365 6.41557 8.3535 6.40807C8.1825 6.39757 7.983 6.39757 7.7835 6.39757C7.63285 6.40132 7.48459 6.43616 7.34804 6.49992C7.21149 6.56368 7.08959 6.65497 6.99 6.76807C6.717 7.06507 5.9535 7.78357 5.9535 9.24907C5.9535 10.7146 7.0185 12.1231 7.1685 12.3226C7.3155 12.5221 9.2595 15.5206 12.243 16.8106C12.948 17.1181 13.503 17.2996 13.9365 17.4376C14.649 17.6656 15.2925 17.6311 15.8055 17.5576C16.3755 17.4706 17.562 16.8376 17.8125 16.1431C18.0585 15.4471 18.0585 14.8531 17.9835 14.7286C17.91 14.6026 17.7105 14.5291 17.4135 14.3806Z" fill="#212121"/></g><defs><clipPath id="clip0_7_56"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g mask="url(#mask0_7_68)"><path d="M12 21.325C11.7667 21.325 11.5333 21.2833 11.3 21.2C11.0667 21.1167 10.8583 20.9917 10.675 20.825C9.59167 19.825 8.63333 18.85 7.8 17.9C6.96667 16.95 6.27083 16.0292 5.7125 15.1375C5.15417 14.2458 4.72917 13.3875 4.4375 12.5625C4.14583 11.7375 4 10.95 4 10.2C4 7.7 4.80417 5.70833 6.4125 4.225C8.02083 2.74167 9.88333 2 12 2C14.1167 2 15.9792 2.74167 17.5875 4.225C19.1958 5.70833 20 7.7 20 10.2C20 10.95 19.8542 11.7375 19.5625 12.5625C19.2708 13.3875 18.8458 14.2458 18.2875 15.1375C17.7292 16.0292 17.0333 16.95 16.2 17.9C15.3667 18.85 14.4083 19.825 13.325 20.825C13.1417 20.9917 12.9333 21.1167 12.7 21.2C12.4667 21.2833 12.2333 21.325 12 21.325ZM12 12C12.55 12 13.0208 11.8042 13.4125 11.4125C13.8042 11.0208 14 10.55 14 10C14 9.45 13.8042 8.97917 13.4125 8.5875C13.0208 8.19583 12.55 8 12 8C11.45 8 10.9792 8.19583 10.5875 8.5875C10.1958 8.97917 10 9.45 10 10C10 10.55 10.1958 11.0208 10.5875 11.4125C10.9792 11.8042 11.45 12 12 12Z" fill="#212121"/></g></svg>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

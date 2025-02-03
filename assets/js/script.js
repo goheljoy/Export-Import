@@ -1,14 +1,10 @@
 // header script
 function menubtn(){
     let menu = document.getElementById("menuu-btn");
-    let menulist = document.querySelectorAll(".ei-site-nav-list .hide-tablet");
     let menuwrap = document.querySelector(".ei-site-nav-list");
-    menu.addEventListener("click", function(){
-    for( let i = 0; i < menulist.length; i++){
-            menulist[i].classList.toggle("hide-tablet");
-        }
+    menu.addEventListener('click' , function(){
+        menuwrap.classList.toggle("ei-show");
     });
-    menuwrap.classList.toggle("show-tablet");
     function activelinks(){
       // active class
       let links = document.querySelectorAll(".ei-nav-link");
